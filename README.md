@@ -105,7 +105,7 @@ git stash pop (apply and remove the latest stash)
 𝐠𝐢𝐭 𝐫𝐞𝐯𝐞𝐫𝐭:
 git revert command is an undo operation that is carried out if we make any mistakes in the commit. revert is a safer option when working with other developers, as it’s preservers the commit history and doesn’t affect others work.
 
-git revert <commit-hash)
+git revert <commit-hash>
 
 𝐠𝐢𝐭 𝐫𝐞𝐬𝐞𝐭:
 It is used to move the HEAD pointer to a specific commit, It modifies the commit history by adjusting the HEAD pointer, the commit history is deleted, it is not safer option when working with multiple developers.
