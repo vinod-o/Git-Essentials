@@ -1,41 +1,23 @@
-Git essentials
-git init
-git config
-git clone
-git status
-git add
-git commit
-git push
-git pull
-git branch
-git checkout
-git merge
-git fetch
-git tag
-git alias
-git log
-git show
-git stash
-git revert
-git reset
-git rebase
-git reflog
-
+𝐆𝐢𝐭 𝐞𝐬𝐬𝐞𝐧𝐭𝐢𝐚𝐥𝐬
 
 𝐠𝐢𝐭 𝐢𝐧𝐢𝐭:
 git init command is used to initialize a new git repository in a directory. It creates a hidden .git folder , which contains all necessary files for version control.
 syntax: git init
+
 𝐠𝐢𝐭 𝐜𝐨𝐧𝐟𝐢𝐠:
 This command is used to configure various aspects of git, including information, preferences, and repository settings.
     git config --global user.name “your-name”
     git config --global user.email “your-email”
     git config --list
+    
 𝐠𝐢𝐭 𝐜𝐥𝐨𝐧𝐞:
 The git clone command allows you to create a local copy of remote repository. It downloads the entire repository , including all branches and commit history.
 git clone repository URL 
+
 𝐠𝐢𝐭 𝐬𝐭𝐚𝐭𝐮𝐬:
 git status is a command used in git to show the state of the working directory and the staging area. It helps you see which changes are staged for commit, which changes are staged for commit, which files are modified but not staged, and if there are any untracked files.
 git status
+
 𝐠𝐢𝐭 𝐚𝐝𝐝:
 The git add command is used to add files to the staging area, preparing them for the next commit. You can specify individual files or use wildcards to add multiple files.
 git add myfile.txt
