@@ -91,7 +91,7 @@ git show is used to display detailed information about a specific commit, includ
 
 git show
 
-git show <commit-hash>
+git show commit-hash
 
 𝐠𝐢𝐭 𝐬𝐭𝐚𝐬𝐡:
 git stash is used to temporarily save changes that are not yet committed, allowing you to work on something else without losing progress. It stores the modifications in a stack-like structure and lets you reapply them later.
@@ -105,12 +105,12 @@ git stash pop (apply and remove the latest stash)
 𝐠𝐢𝐭 𝐫𝐞𝐯𝐞𝐫𝐭:
 git revert command is an undo operation that is carried out if we make any mistakes in the commit. revert is a safer option when working with other developers, as it’s preservers the commit history and doesn’t affect others work.
 
-git revert <commit-hash>
+git revert commit-hash
 
 𝐠𝐢𝐭 𝐫𝐞𝐬𝐞𝐭:
 It is used to move the HEAD pointer to a specific commit, It modifies the commit history by adjusting the HEAD pointer, the commit history is deleted, it is not safer option when working with multiple developers.
 
-git reset <commit-hash>
+git reset commit-hash
 
 𝐠𝐢𝐭 𝐫𝐞𝐛𝐚𝐬𝐞:
 git rebase is used to change the base of a branch by applying commits from another branch on top of it. It’s commonly used to integrate changes from one branch into another while maintaining a clean and linear history.
